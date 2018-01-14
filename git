@@ -1,0 +1,38 @@
+paramétrer utilisateur 
+	git config --global user.email "you@example.com"
+  	git config --global user.name "Your Name"
+
+demander à git de prendre en charge le dossier
+	git init
+
+récupérer des infos sur l'état actuel du dossier
+	git status
+
+ajouter des fichiers à suivre 
+	git add fichier
+
+faire un commit
+	git commit -m "message pour le commit"
+
+créer une branche 
+	git branch nomDeLaBranche
+
+changer de branche 
+	git checkout brancheARegarder
+
+historique des modifs de la branche
+	git log --oneline
+		(pour afficher sur 1 ligne)
+
+intégrer la branche au projet 
+	git merge --no-ff branche à intégrer
+
+cloner dossier
+	git clone src dest
+
+cloner dossier à partir dépot à distance 
+	git clone chemindudepot
+			(peut être url du dépot bare sur github)
+
+
+
