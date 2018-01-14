@@ -1,0 +1,8 @@
+pour le makefile 
+CC=g++
+CFLAGS= `pkg-config --cflags opencv`
+LIBS= `pkg-config --libs opencv`
+
+executable : src.cpp
+        $(CC) src.cpp -o executable $(LIBS) $(CFLAGS)
+
