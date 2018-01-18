@@ -1,0 +1,21 @@
+dump traffic on network
+
+-c count sort après avoir recu le nombre de nombre de paquetss
+
+-d balance paquet sous forme lisible pour homme
+
+-dd dump packet-matching code as c prog fragment
+
+-ddd dump packet matching code as decimal number
+
+-D
+	(--list-interfaces)
+	affiche liste des interfaces sur lesquelles tcpdump peut prendre paquets
+
+-f affiche adressse ipv4 étrangères sous forme numérique
+
+-i interface
+	--interface=interface
+	sélectionne interface à écouter
+
+-l rendre stdout buffer
