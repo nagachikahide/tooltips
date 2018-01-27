@@ -1,0 +1,7 @@
+configuration avancée de firefox : 
+	taper about:config dans la barre des tâches
+
+paramètres (connus, cf cours de ser)
+	network.http.version
+	network.http.max-persistent-connections-per-server
+	network.http.pipeling
